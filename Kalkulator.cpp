@@ -12,7 +12,7 @@ int hasnan(){
 
 int penjumlahan(){
  float bil1, bil2, hasil;
- cout<<"1. Operasi Penjumlahan"<<endl;
+ cout<<"1. Kalkulasi Penjumlahan"<<endl;
  cout<<"   Masukkan bilangan pertama : "; cin>>bil1;
  cout<<"   Masukkan bilangan kedua   : "; cin>>bil2;
  hasil = bil1 + bil2;
@@ -21,7 +21,7 @@ int penjumlahan(){
 }
 int pengurangan(){
  float bil1, bil2, hasil;
- cout<<"2. Operasi Pengurangan"<<endl;
+ cout<<"2. Kalkulasi Pengurangan"<<endl;
  cout<<"   Masukkan bilangan pertama : "; cin>>bil1;
  cout<<"   Masukkan bilangan kedua   : "; cin>>bil2;
  hasil = bil1 - bil2;
@@ -30,7 +30,7 @@ int pengurangan(){
 }
 int perkalian(){
  float bil1, bil2, hasil;
- cout<<"3. Operasi Perkalian"<<endl;
+ cout<<"3. Kalkulasi Perkalian"<<endl;
  cout<<"   Masukkan bilangan pertama : "; cin>>bil1;
  cout<<"   Masukkan bilangan kedua   : "; cin>>bil2;
  hasil = bil1 * bil2;
@@ -39,7 +39,7 @@ int perkalian(){
 }
 int pembagian(){
  float bil1, bil2, hasil;
- cout<<"4. Operasi Pembagian"<<endl;
+ cout<<"4. Kalkulasi Pembagian"<<endl;
  cout<<"   Masukkan bilangan pertama : "; cin>>bil1;
  cout<<"   Masukkan bilangan kedua   : "; cin>>bil2;
  hasil = bil1 / bil2;
@@ -48,7 +48,7 @@ int pembagian(){
 }
 int pangkat(){
  float bil, hasil;
- cout<<"5. Operasi Pangkat 2"<<endl;
+ cout<<"5. Kalkulasi Pangkat 2"<<endl;
  cout<<"  Masukkan bilangan : "; cin>>bil;
  hasil = bil * bil;
  cout<<"  Hasil dari "<<bil<<" pangkat 2 = "<<hasil<<endl;
