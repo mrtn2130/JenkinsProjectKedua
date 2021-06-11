@@ -1,3 +1,21 @@
+#include <iostream>
+#include <conio.h>
+#include <math.h>
+//#include <hasnanhj>
+using namespace std;
+
+int pilihan();
+
+int hasnan(){
+ cout<<"\t-----------------------------------------------------------"<<endl;
+}
+
+int penjumlahan(){
+ float bil1, bil2, hasil;
+ cout<<"1. Operasi Penjumlahan"<<endl;
+ cout<<"   Masukkan bilangan pertama : "; cin>>bil1;
+ cout<<"   Masukkan bilangan kedua   : "; cin>>bil2;
+ hasil = bil1 + bil2;
  cout<<"   Hasil dari "<<bil1<<" + "<<bil2<<" = "<<hasil<<endl;
  pilihan();
 }
